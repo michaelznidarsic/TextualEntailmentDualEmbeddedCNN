@@ -240,7 +240,7 @@ reverseworddict = dict([(value,key) for (key, value) in worddict.items()])
 # PADDING
 
 
-# treat maxlens differently to reduce padding noise? THAT DIDN'T HELP MUCH, I HAVE TO ARTIFICIALLY CHOP THEM EACH DOWN TO ~20 I THINK
+# treat maxlens differently to reduce padding noise? 
 
 maxlen1 = 24
 maxlen2 = 24
